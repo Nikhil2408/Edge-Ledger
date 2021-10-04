@@ -1,0 +1,60 @@
+:root
+{
+    --primary-color: #227338;
+}
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Times New Roman', Times, serif
+}
+
+header
+{
+    background: url("../images/home/image.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.navbar-flex-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-flex-container h1
+{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.navbar-flex-container h1 a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav-list-flex-container
+{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list-flex-container .nav-list-flex-item a
+{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 20px;
+    color: white;
+}
+
+.nav-list-flex-container .nav-list-flex-item a:hover
+{
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--primary-color);
+}
