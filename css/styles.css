@@ -190,7 +190,7 @@ header *
 
 .cases .cases-images img
 {
-    flex-basis: 25%;
+    /* flex-basis: 25%; */
     max-width: 25%;
     padding: 4px 4px 5px 4px;
 }
@@ -225,12 +225,74 @@ header *
 .team .team-images
 {
     display: flex;
-    flex-direction: row;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .team .team-images .teamMember img
 {
     padding: 10px;
     border-radius: 50%;
+}
+
+
+/* Contact Section */
+
+.contact .row .column .column-2-contact-form
+{
+    background-color: rgb(238, 234, 234);
+    color: black;
+}
+
+.contact .row .column .column-2-contact-form label
+{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contact .row .column .column-2-contact-form input
+{
+    width: 100%;
+    border: none;
+    line-height: 2rem;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.contact .row .column .column-2-contact-form input[type="submit"]
+{
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+/* Footer Section */
+
+.footer
+{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer .social-links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .social-links a
+{
+    padding: 20px;
+    color: white;
+}
+
+.footer p
+{
+    color: white;
+    margin-bottom: 1rem;
 }
