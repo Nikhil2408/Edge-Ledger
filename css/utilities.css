@@ -1,8 +1,93 @@
 /* Utilities classes */
 /* Those classes which are used multiple times over the website */
 
+:root
+{
+    --primary-color: #227338;
+    --primary-hover: #165326;
+    --secondary-color: #0284d0;
+    --secondary-hover: #1d71a1;
+}
 
 .primary-text
 {
     color: #227338;
+}
+
+.bg-primary
+{
+    background-color: #227338;
+}
+.secondary-text
+{
+    color: #0284d0;
+}
+
+.bg-secondary
+{
+    background-color: #0284d0;
+}
+
+
+/* Solutions Section */
+.flex-columns .row
+{
+    display: flex;
+    width: 100%;
+    /* flex-wrap: no-wrap; */
+    flex: 1;
+}
+
+.flex-columns .column
+{
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.flex-columns .column-1,
+.flex-columns .column-2
+{
+    height: 100%;
+}
+
+.flex-columns img
+{
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column .column-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+.flex-columns .column .column-2 h2,p
+{
+    padding-top: 10px;
+}
+
+.flex-columns .column .column-2 a
+{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.flex-columns .column .column-2 a:hover
+{
+    background-color: var(--primary-hover);
+}
+
+/* Specifically for Secondary Hover on link */
+.blogs .secondary-hover .column-2 a:hover
+{
+    background-color: var(--secondary-hover);
 }
