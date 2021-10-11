@@ -1,0 +1,29 @@
+/* Adjusting Navbar */
+.navbar-flex-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.nav-list-flex-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list-flex-container .nav-list-flex-item
+{
+    padding: 4px;
+}
+
+.nav-list-flex-container .nav-list-flex-item a:hover
+{
+    padding-bottom: 3px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* Adjusting ShowCase Content */
+
+header #showcase-content h1
+{
+    padding-top: 70px;
+}
