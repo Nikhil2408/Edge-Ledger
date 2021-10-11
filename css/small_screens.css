@@ -17,13 +17,49 @@
 
 .nav-list-flex-container .nav-list-flex-item a:hover
 {
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     border-bottom: 2px solid var(--primary-color);
 }
 
-/* Adjusting ShowCase Content */
+/* Adjusting About Section */
 
-header #showcase-content h1
+#about
 {
-    padding-top: 70px;
+    flex-direction: column;
+}
+
+/* Adjusting Solutions Section */
+
+.flex-columns .row
+{
+    flex-direction:column;
+}
+
+/* Adjusting Cases Section */
+
+#cases .cases-images
+{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#cases .cases-images img
+{
+    max-width: 100%;
+    padding: 0px 4px 0px 4px;
+}
+
+/* Adjusting Team Section */
+
+.team .team-images
+{
+    flex-direction: column;
+}
+
+
+/* Adjusting Contact section by removing image from that section */
+
+#contact .row .column .column-1 img
+{
+    display: none;
 }
