@@ -309,3 +309,12 @@ header *
     color: white;
     margin-bottom: 1rem;
 }
+
+
+/* Blog Page CSS */
+
+#blogs
+{
+    background: url('../images/home/blog.jpg') no-repeat center center/cover;
+    height: 70vh;
+}

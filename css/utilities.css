@@ -14,19 +14,33 @@
     color: #227338;
 }
 
-.bg-primary
-{
-    background-color: #227338;
-}
 .secondary-text
 {
     color: #0284d0;
 }
 
+.bg-primary
+{
+    background-color: #227338;
+    color: white;
+}
+
 .bg-secondary
 {
     background-color: #0284d0;
+    color: white;
 }
+
+.bg-dark
+{
+    background-color: #333;
+    color: white;
+}
+.bg-light
+{
+    background-color: rgb(190, 188, 188);
+}
+
 
 
 /* Solutions Section */
@@ -61,7 +75,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    /* color: white; */
     padding: 20px;
 }
 
@@ -87,7 +101,14 @@
 }
 
 /* Specifically for Secondary Hover on link */
-.blogs .secondary-hover .column-2 a:hover
+#blog .secondary-hover .column-2 a:hover
 {
     background-color: var(--secondary-hover);
+}
+
+/* Specifically for Blog Page */
+
+#blog-page .row .column .column-2 h4
+{
+    padding-top: 10px;
 }

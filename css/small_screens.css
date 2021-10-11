@@ -63,3 +63,15 @@
 {
     display: none;
 }
+
+/* Adjusting Blog page to small screens */
+
+#blogs #showcase-content
+{
+    padding: 50px 10px 0px 10px;
+}
+
+#blog-page .row img
+{
+    display: none;
+}
